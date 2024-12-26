@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1,h3{
+            text-align: center;
+        }
+        table,th{
+            text-align: left;
+        }
+        span{
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <fieldset style="border: 5px solid black;" >
+    <h1>Complaints</h1>
+    <h3>Help us improve our services</h3>
+    <hr><br>
+    <table>
+       <form>
+     <tr>
+        <th>Full Name <span>*</span></th>
+        <td><input type="text" name="fname" autofocus placeholder="Full Name"></td>
+        <td><input type="text" name="lname" placeholder="Last Name"></td>
+     </tr>
+     <tr>
+        <th>Email <span>*</span></th>
+        <td><input type="email" name="email" placeholder="Email"></td>
+     </tr>
+     <tr>
+        <th>Phone <span>*</span></th>
+        <td><input type="number" min="1" ></td>
+     </tr>
+     <tr>
+        <th>Were did you go wrong? <span>*</span></th>
+        <td><textarea name="Address" rows="5" cols="15"></textarea></td>
+     </tr>
+     <tr>
+     <td style="text-align: center;"><input type="submit" value="submit" style="background-color: red; text-align: center;"></td>
+     </tr>
+     </form>
+    </table>
+    <br>
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border: 2px solid black;
+            border-collapse: separate;
+        }
+        table{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <fieldset style="border: 5px solid black;">
+    <h1>Pizza Shop</h1>
+    <form>
+        <table>
+            <tr>
+               <th colspan="2">Pizza Shop 2.0 </th>
+            </tr>
+             
+            <tr>
+                <td>Name </td>
+                <td><input type="text" name="name" autofocus placeholder="Name"></td>
+            </tr>
+
+            <tr>
+                <td>Pizza Topping</td>
+                <td>
+                    <input type="radio">Supreme<br>
+                    <input type="radio">Vegetarian<br>
+                    <input type="radio">Hswaiian
+                </td>
+            </tr>
+
+            <tr>
+                <td>Pizza Sauce</td>
+                <td>
+                    <select name="Sauce" >
+                        <option value="Tomato Sauce">Tomato Sauce</option>
+                        <option value="Butter Sauce">Butter Sauce</option>
+                        <option value="Soy Sauce">Soy Sauce</option>
+                        <option value="Aioli">Aioli</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Optional Extras</td>
+                <td>
+                    <input type="checkbox">Extra Cheese
+                    <input type="checkbox">Gluten Free Base
+                </td>
+            </tr>
+
+            <tr>
+                <td>Delivery Instructions :</td>
+                <td><textarea name="text" cols="100" rows="5"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="Send my order"></td>
+            </tr>
+
+        </table>
+    </form>
+    <br>
+    </fieldset>
+</body>
+</html>

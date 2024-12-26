@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: separate;
+        }
+        table{
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+     <fieldset style="border: 4px solid black;">
+     <h1><b>Enter My Information</b></h1>
+     <form>
+     <table>
+        
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+        
+        <tr>
+            <td>Name :</td>
+            <td><input type="text" name="name" autofocus placeholder="Name"></td>
+        </tr>
+        
+        <tr>
+            <td rowspan="1">Sex :</td>
+            <td >
+                <input type="radio" name="gender">Male<br>
+                <input type="radio" name="gender">Female
+            </td><br>
+        </tr>
+
+        <tr>
+            <td>Eye color :</td>
+            <td>
+                <select name="Eye Color">
+                    <option value="Black">Black</option>
+                    <option value="Brown">Brown</option>
+                    <option value="Light Brown">Light Brown</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>Check all that apply :</td>
+            <td>
+                <input type="checkbox">Over 6 feet tall<br>
+                <input type="checkbox">Over 200 pounds
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Describe your athletic ability :<br>
+            <textarea name="Address" cols="100" rows="5" ></textarea></td>
+        </tr>
+
+        <tr>
+            <td style="text-align: center;"><input type="submit" value="Enter my information"></td>
+        </tr>
+
+     </table>
+     </form>
+     <br>
+     </fieldse>
+</body>
+</html>
